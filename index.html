@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Pokedex</title>
+ <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+ <header>
+ <h1>Pokedex</h1>
+ <input type="text" id="searchInput" placeholder="Search Pokemon...">
+ </header>
+ 
+ <main>
+ <div id="pokemonGrid" class="pokemon-grid"></div>
+ <div id="pokemonDetail" class="pokemon-detail hidden"></div>
+ <div id="loadingSpinner" class="spinner hidden"></div>
+ <div id="errorMessage" class="error-message hidden"></div>
+ </main>
+ 
+ <script src="app.js"></script>
+</body>
+</html>
